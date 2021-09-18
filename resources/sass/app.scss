@@ -1,0 +1,148 @@
+// Variables
+@import 'variables';
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+@import '~bootstrap-icons/font/bootstrap-icons';
+
+body {
+    font-size: 1.1em;
+}
+
+header {
+    min-height: 10vh;
+}
+
+main {
+    min-height: 80vh;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+footer {
+    min-height: 10vh;
+    clear: both;
+
+    .container {
+        padding: 2vh;
+
+        i {
+            color: $footer-text-color;
+        }
+
+        p {
+            margin: 0;
+            color: $footer-text-color;
+        }
+
+        .bi-arrow-up-circle {
+            font-size: 2em;
+        }
+
+        .socials {
+            font-size: 1.5em;
+        }
+    }
+}
+
+.card-body {
+    .container {
+        .row {
+            h5 {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.card-footer {
+    nav {
+        ul {
+            margin: auto;
+        }
+    }
+}
+
+.modal-body {
+    .col {
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.flex-text-truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bi-arrow-up-circle {
+    color: $footer-text-color;
+}
+
+.min-vh-60 {
+    min-height: 60vh;
+}
+
+.btn-circle {
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 3em;
+
+    i {
+        margin: auto;
+        font-size: 1.2em;
+    }
+}
+
+.sticky-bottom {
+    position: -webkit-sticky;
+    position: sticky;
+
+    bottom: 1.5rem;
+    z-index: 1020;
+}
+
+@include media-breakpoint-down(sm) {
+    .sticky-bottom {
+        bottom: 1rem;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .nav-right-menu {
+        width: 100%;
+    }
+}
+
+.no-markdown-margin > p {
+    margin: 0;
+}
+
+.rounded-image-container {
+    border-radius: 50%;
+}
+
+.blurred-image-container {
+    overflow: hidden;
+
+    img {
+        filter: blur(3px);
+    }
+}
+
+//.blurred-type-container {
+//    width: 10em;
+//    height: 10em;
+//    filter: blur(7px);
+//
+//    img {
+//        width: 6em;
+//        height: 6em;
+//        margin: 2em 2em;
+//    }
+//}
