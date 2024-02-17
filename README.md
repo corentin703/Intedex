@@ -12,7 +12,7 @@ Pour l'utiliser, il faudra vous munir de php 8 minimum, de [composer](https://ge
 
 ## Crédits
 
-Remerciement à :
+Remerciements à :
 - L'équipe de [Laravel](https://laravel.com/) pour la qualité de leur framework ;
 - [simplesoftwareio](https://github.com/SimpleSoftwareIO/simple-qrcode) pour la génération de QR code ;
 - [PHPOffice](https://github.com/PHPOffice/phpspreadsheet/) et [Maatwebsite](https://github.com/Maatwebsite/Laravel-Excel) pour leur générateur de documents Excel ;
