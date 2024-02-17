@@ -1,6 +1,6 @@
 # Intédex
 
-Clone du Pokédex conçu pour l'intégration de septembre 2021, organisée par le [BDE de l'ISIMA](https://bde.isima.fr/). 
+Clone du Pokédex conçu pour l'intégration de nouveaux élèves en septembre 2021, organisée par le [BDE de l'ISIMA](https://bde.isima.fr/). 
 
 
 ## Concept
@@ -8,8 +8,7 @@ Clone du Pokédex conçu pour l'intégration de septembre 2021, organisée par l
 Il s'agit d'une chasse aux pokémons, que l'on peut capturer en flashant des codes QR, générés par l'application.
 
 Ce projet est basé sur [Laravel](https://laravel.com/) et utilise MySQL / MariaDB pour le stockage des données.
-Pour l'utiliser, il faudra vous munir de php 8 minimum, de composer et de l'extension imagick d'activée (nécessaire pour la génération des codes QR).
-
+Pour l'utiliser, il faudra vous munir de php 8 minimum, de [composer](https://getcomposer.org/) et de l'extension [imagick](https://www.php.net/manual/fr/class.imagick.php) activée (nécessaire pour la génération des QR code).
 
 ## Remerciements
 
